@@ -25,6 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             'follower_node = transport_bot.follower_node:main',
+            'color_tracker = transport_bot.color_tracker:main',
+            'human_detector = transport_bot.human_detector:main',
         ],
     },
 )
